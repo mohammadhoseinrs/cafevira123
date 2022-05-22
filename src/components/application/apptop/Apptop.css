@@ -1,0 +1,130 @@
+.apptop{
+    position: relative;
+    height: 100vh;
+    background: #08265d;
+    background: -moz-linear-gradient(45deg,#08265d 0,#701FFF 45%);
+    background: -webkit-linear-gradient(45deg,#08265d 0,#701FFF 45%);
+    background: linear-gradient(45deg,#08265d 0,#701FFF 45%);
+}
+.apptop::before{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    z-index: 1;
+    border-top: 580px solid #701FFF;
+    border-right: 370px solid transparent;
+    top: 0;
+    left: 0;
+}
+.apptop__background{
+    width: 600px;
+    position: absolute;
+    bottom: 0;
+    height: 714px;
+    left: 30%;
+    opacity: .5;
+}
+.apptop__container{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    margin:auto;
+    color: #fff;
+    padding-top: 8rem;
+}
+.apptop__container__top{
+    font-weight: 200;
+    font-size: 18px;
+}
+.apptop__title{
+    position: relative;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+    font-family: 'Vazirmatn', sans-serif;
+
+}
+.apptop__title::after{
+    content: '';
+    position: absolute;
+    right: 20%;
+    bottom: 0;
+    height: 5px;
+    width: 265px;
+    transform: translate(-50%,-50%);
+    background-color: #fff7;
+}
+.apptop__subtitle{
+    font-size: 15px;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.apptoplogo{
+    padding: 0 30px 10px;
+    background-size: 90%;
+    background-image: url(./../../../Assets/images/applogo/bogda.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+    opacity: .8;
+}
+.apptop__logo{
+    background-color: #F6F6F6;
+    padding: 1rem 0;
+}
+.apptop__logo__container{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.apptoplogo img{
+    width: 90%;
+    filter: grayscale(100%) contrast(100%);
+}
+@media screen and (max-width:856px){
+    .apptop__title{
+        font-size: 30px;
+    }
+    .apptop{
+        height: 70vh;
+    }
+    .apptop::before{
+    display: none; 
+   }
+   .apptop__background{
+       display: none;
+   }
+   .apptop__container{
+       padding-top: 4rem;
+   }
+   .apptop__subtitle{
+       font-size: 12px;
+       line-height: 28px;
+   }
+   .apptop__title::after{
+       display: none;
+   }
+   .apptop__logo{
+       display: none;
+   }
+}
+@media screen and (max-width:550px){
+    .apptop__container{
+        width: 80%;
+        padding-top: 5rem;
+    }
+}

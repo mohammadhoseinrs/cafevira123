@@ -1,0 +1,134 @@
+.gamefooter__inner{
+    height: 120vh;
+    padding: 152px 0;
+    position: relative;
+    z-index: 1;
+    background: url(./../../../Assets/images/gamefooter1.png)  no-repeat -100px 0,url(./../../../Assets//images/footergame.jpeg) no-repeat -100px 33px;
+    overflow: hidden;
+}
+.gamefooter{
+    margin: 4rem 0;
+}
+.gamefooter__inner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(1turn,#141618 4.7%,rgba(20,22,24,0) 12.51%);
+}
+.footer__light{
+    display: block;
+    mix-blend-mode: screen;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    transform: translate3d(0px, 100px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1);
+    -webkit-transform: translate3d(0px, 100px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1);
+}
+.footer__light img{
+    height: auto;
+    max-width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    vertical-align: middle;
+}
+.footer__container__right__top__title{
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: .035em;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: 'Vazirmatn', sans-serif;
+}
+.footer__container__right{
+    position: relative;
+    max-width: 592px;
+    margin-left: auto;
+    text-align: center;
+    padding: 77px 68px 0;
+    border-radius: 17px;
+    background: linear-gradient(47.64deg,rgba(189,117,50,.3) 10.42%,rgba(189,117,50,0) 39.22%),rgba(26,26,26,.7);
+}
+.footer__container__right__top__text{
+    color: rgba(255, 255, 255, 0.657);
+    margin-top: 1rem;
+    font-size: 14px;
+}
+.footer__container{
+    width: 85%;
+    margin: 0 auto;
+}
+.footer__container__right__bottom__form{
+    padding: 0 27px 77px;
+    position: relative;
+}
+.footer__container__right__bottom__form__top__input{
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid hsla(0,0%,100%,.25);
+    padding: 5px 0;
+    font-family: Proxima Nova,sans-serif;
+    font-size: 14px;
+    color: hsla(0,0%,100%,.7);
+    margin-top: 2rem;
+}
+.footer__container__right__bottom__form__top{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.footer__container__right__bottom__form__top__input2{
+    margin-top: 3rem;
+}
+.footer__container__right__bottom__form__top__input::placeholder{
+    position: absolute;
+    font-size: 16px;
+    color: hsla(0,0%,100%,.7);
+    right: 0;
+    top: -1px;
+    transition: all .3s linear;
+}
+.footer__container__right__bottom__form__btn{
+margin-top: 3rem;
+}
+.footer__container__right__bottom__form__btn__btn{
+    padding: 0.7rem 5rem;
+    background-color: transparent;
+    border: 1px solid hsla(0,0%,100%,.25);
+    color: rgba(255, 255, 255, 0.657);
+    border-radius: 5px;
+    transition: all 0.4s ease;
+}
+.footer__container__right__bottom__form__btn__btn:hover{
+    background-color: hsla(0,0%,100%,.25);
+    cursor: pointer;
+}
+@media screen and (max-width:550px){
+    .footer__container__right{
+        padding: 2rem 1rem;
+    }
+    .footer__container__right__top__title{
+        font-size: 20px;
+    }
+    .footer__container__right__top__text{
+        font-size: 12px;
+    }
+    .footer__container__right__bottom__form{
+        padding: 2rem;
+    }
+    .footer__container__right__bottom__form__top{
+        flex-direction: column;
+        gap: 0;
+    }
+
+}

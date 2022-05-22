@@ -1,0 +1,105 @@
+.dgsection2{
+    background-color: #AB7BFF;
+    margin: 8rem 0 5rem 0;
+    
+}
+.dgsection2__container{
+    padding: 6rem 7rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+.dgsection2__right{
+    flex: 0.45;
+}
+.dgsection2__left{
+    flex: 0.4;
+    color: #fff;
+}
+.dgsection2__left__title{
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 35px;
+    margin: 1rem 0;
+}
+.dgsection2__left__text{
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+.dgsection2__left__btn{
+    background-color: transparent;
+    border: 1px solid var(--main-color);
+    padding: 0.1rem 1.5rem;
+    border-radius: 20px;
+    color: #fff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.dgsection2__left__btn:hover{
+    background-color: var(--main-color);
+
+}
+.dgsection2__bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 6rem;
+}
+.dgsection2__bottom__top{
+    color: white;
+    font-weight: 200;
+    margin-bottom: 1rem;
+}
+.dgsection2__bottom__img{
+    margin-bottom: 2rem;
+}
+.dgsection2__bottom__image img {
+    margin: 0 1rem;
+}
+.dgsection2__right img{
+    width: 100%;
+}
+.dgsection2__bottom__image img{
+    width: 60px;
+}
+@media screen and (max-width:1100px){
+    .dgsection2__left{
+        flex: 0.5;
+    }
+}
+@media screen and (max-width:955px){
+    .dgsection2__container{
+        flex-direction: column-reverse;
+    }
+    .dgsection2__left{
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .dgsection2{
+        margin-top:0;
+        margin-bottom: 3rem;
+    }
+
+}
+@media screen and (max-width:555px){
+    .dgsection2__container{
+        padding: 3rem 2rem;
+    }
+    .dgsection2__left__title{
+        font-size: 20px;
+    }
+    .dgsection2__left__text{
+        font-size: 14px;
+    }
+    .dgsection2__bottom__top{
+        text-align: center;
+        padding: 0 1rem;
+        font-size: 15px;
+    }
+    .dgsection2__bottom__image{
+        text-align: center;
+    }
+    .dgsection2__bottom__image img{
+        width: 50px;
+    }
+}

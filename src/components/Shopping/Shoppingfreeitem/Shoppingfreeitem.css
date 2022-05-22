@@ -1,0 +1,35 @@
+.Shoppingfreeitem{
+    margin: 2rem;
+}
+.Shoppingfreeitem__top{
+    text-align: center;
+}
+.Shoppingfreeitem__top__title{
+    color: var(--main-color);
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 35px;
+    margin-bottom: 1rem;
+}
+.Shoppingfreeitem__top__text{
+    font-weight: 200;
+}
+.Shoppingfreeitem__bottom{
+    margin-top: 2rem;
+}
+.Shoppingfreeitem__bottom{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+@media screen and (max-width:662px){
+    .Shoppingfreeitem__bottom{
+        flex-direction: column;
+    }
+    .ShoppingDownload__left__item{
+        margin-bottom: 2rem;
+    }
+    .Shoppingfreeitem__top__text{
+        font-size: 13px;
+    }
+}

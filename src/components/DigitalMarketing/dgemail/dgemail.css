@@ -1,0 +1,44 @@
+.dgemail__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 7rem;
+}
+.dgemail__title{
+    font-family: 'Vazirmatn', sans-serif;
+    color: var(--main-color);
+}
+.dgemail__subtitle{
+    font-weight: 200;
+    margin: 1rem 0;
+}
+.dgemail__input{
+    border: 1px solid var(--main-color);
+    width: 30%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.dgemail__input__input{
+    height: 100%;
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+}
+.dgemail__input__btn{
+    border-radius: 20px 0 0 20px;
+    background-color: var(--main-color);
+    border: none;
+    outline: none;
+    width: 30%;
+    color: white;
+    padding: 0.5rem;
+}
+.dgemail__input__input::placeholder{
+   margin-right: 3rem;
+}

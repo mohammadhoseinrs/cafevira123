@@ -1,0 +1,83 @@
+.productshow{
+    margin-top: 2rem;
+}
+
+.productshow__container{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.productshow__right{
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.135);
+    background-color: #FAFAFA;
+    border-radius: 5px;
+    flex: 0.6;
+}
+.productshow__right__btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.3rem 0rem 0rem 0rem;
+}
+.productshow__right__btn__main{
+    background-color: var(--main-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 0.6rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-family: 'Vazirmatn', sans-serif;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.productshow__right__btn__main:hover{
+    opacity: 0.9;
+}
+.productshow__right__btn__main p{
+    margin-left: 20px;
+}
+.productshow__left{
+    border: 1px solid rgba(0, 0, 0, 0.135);
+    border-radius: 5px;
+    flex: 0.3;
+}
+.productshow__left__inner{
+    width: 330px;
+    padding: 2rem;
+}
+.productshow__left__inner__top{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.231);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1rem;
+}
+.productshow__left__inner__middle__item{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.productshow__left__inner__middle__item svg{
+    font-size: 20px;
+}
+.productshow__left__inner__bottom{
+    width: 90%;
+    margin: 0 auto;
+    background-color: var(--main-color);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 7rem;
+}
+.productshow__left__inner__bottom p{
+    margin-left: 10px;
+}

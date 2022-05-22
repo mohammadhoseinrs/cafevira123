@@ -1,0 +1,178 @@
+.appsection5{
+    width: 90%;
+    margin: 6rem auto;
+}
+.appsection5__top{
+    text-align: center;
+}
+.appsection5__top h5{
+    color: var(--main-color);
+    word-spacing: 3px;
+}
+.appsection5__top h2{
+    font-size: 35px;
+}
+.appsection5__middle1{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.appsection5__middle1__right{
+    flex: 0.4;
+}
+.appsection5__middle1__right__title{
+    display: flex;
+    align-items: center;
+    font-size: 28px;
+}
+.appsection5__middle1__right__title p{
+    color: var(--main-color);
+    margin-left: 20px;
+}
+.appsection5__middle1__right__item p{
+    color: var(--main-color);
+    font-weight: 500;
+}
+.appsection5__middle1__right__item li{
+    list-style: none;
+    margin-top: 0.5rem;
+    font-weight: 200;
+    font-size: 14px;
+}
+.appsection5__middle1__right__item li::before {
+    font-size: 20px;
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: var(--main-color); /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */ 
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: 0em; /* Also needed for space (tweak if needed) */
+  }
+.appsection5__middle1__right__text{
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 2rem;
+}
+.appsection5__middle1__left{
+    flex: 0.45;
+}
+.appsection5__middle1__left__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+.appsection5__middle1__left__top div:first-child{
+    border-radius: 0 20% 20% 0;
+}
+.appsection5__middle1__left__top div:last-child{
+    border-radius: 20% 0 0 20%;
+}
+.appsection5__middle1__left__top__item{
+    background-color: #e7d1fd82;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 10px;
+    width: 170px;
+    max-width: 100%;
+    border-radius: 5%;
+    min-height: 160px;
+}
+.appsection5__middle1__left__top__item__item{
+    color: var(--main-color);
+    text-align: center;
+}
+.icon__document{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.icon__document:before {
+    content: "\25c5";
+}
+.appsection5__middle1__left__top__item__item i{
+    display: block;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.icon__document {
+    font-family: icomoon!important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.appsection5__middle1__left__top__item__item__image img{
+    width: 50px;
+}
+.appsection5__middle1__left__bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    position: relative;
+}
+.appsection5__middle1__left__bottom div:first-child{
+    border-radius: 0 20% 20% 0;
+}
+.appsection5__middle1__left__bottom div:nth-child(2){
+    border-radius: 20% 0 0 20%;
+    margin-right: 40px;
+}
+
+.appsection5__dotright{
+    position: absolute;
+    top: 95px;
+    left: 40px;
+}
+.appsection5__middle2{
+    flex-direction: row-reverse !important;
+    margin: 6rem 0;
+}
+.appsection5__middle1__left__top2{
+    margin-top: 2rem;
+}
+@media screen and (max-width:1000px){
+    .appsection5__middle1__right{
+        flex: 0.5;
+    }
+}
+@media screen and (max-width:900px){
+    .appsection5__top h2{
+        font-size: 30px;
+    }
+    .appsection5__middle1{
+        flex-direction: column !important;
+    }
+    .appsection5__middle1__right{
+        margin-bottom: 3rem;
+    }
+    .appsection5__dotright{
+        display: none;
+    }
+}
+@media screen and (max-width:660px){
+    .appsection5__top h2{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:550px){
+    .appsection5__top h2{
+        font-size: 20px;
+    }
+    .appsection5__middle1__left__top__item{
+        width: 150px;
+    }
+    .appsection5__middle1__right__title h3{
+        font-size: 25px;
+    }
+    .appsection5__middle1__left__top__item__item__image img{
+        width: 30px;
+    }
+}

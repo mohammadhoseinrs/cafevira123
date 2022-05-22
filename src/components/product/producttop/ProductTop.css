@@ -1,0 +1,52 @@
+.product__top{
+    background-color: #FAFAFA;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.099);
+}
+.product__top__inner{
+    width: 70%;
+    margin: 0 auto;
+}
+.product__top__inner__top{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.product__top__inner__top__icon{
+    margin: 0 1rem;
+}
+.product__top__inner__top a{
+    font-size: 15px;
+    color: #000;
+}
+.product__top__inner__top__active{
+    color: rgba(0, 0, 0, 0.526) !important;
+}
+.product__top__inner__top__title{
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 25px;
+}
+.product__top__inner__top__subtitle{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0rem;
+
+}
+.product__top__inner__top__subtitle__sales{
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+.product__top__inner__top__subtitle__update{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--main-color); 
+    font-family: 'Vazirmatn', sans-serif;
+    margin: 0 1rem;
+}
+.product__top__inner__top__subtitle__update svg{
+    margin-right: 10px;
+}
+.product__top__inner__top__subtitle__sales svg{
+    margin-right: 1rem;
+}

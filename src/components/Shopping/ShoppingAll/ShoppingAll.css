@@ -1,0 +1,69 @@
+.shoppingall{
+    padding: 0 2rem;
+    margin-bottom: 3rem;
+}
+.shoppingall__top{
+    text-align: center;
+}
+.shoppingall__top__title{
+    font-family: 'Vazirmatn', sans-serif;
+    margin-bottom: 1rem;
+}
+.shoppingall__top__subtitle{
+    font-weight: 200;
+}
+.shoppingall__middle{
+    margin-top: 4rem;
+}
+.shoppingall__middle__box{
+    width: fit-content;
+    padding: 0.5rem 3rem;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #f7f9fb;
+    border: 1px solid #f7f9fb;
+    border: 1px solid var(--main-color);
+}
+.shoppingall__middle__box p{
+    font-size: 15px;
+}
+.shoppingall__middle__box:hover{
+    border: 1px solid var(--main-color);
+}
+.shoppingall__bottom__item__content{
+    padding:1rem;
+}
+.shoppingall__bottom{
+    margin-top: 2rem;
+}
+.shoppingall__bottom__item__image{
+    line-height: 0;
+}
+.shoppingall__bottom__item__image img{
+    width: 100%;
+}
+.shoppingall__bottom{
+    display: flex;
+}
+.shoppingall__bottom__item{
+    width: 350px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 4px 3px 20px #0000004a;
+    transition: all 0.3s ease;
+}
+.shoppingall__bottom__item:hover{
+    transform: translateY(-7px);
+    cursor: pointer;
+}
+
+.shoppingall__bottom__item__content__bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.shoppingall__bottom__item__left{
+    display: flex;
+}
+

@@ -1,0 +1,128 @@
+.appsection2{
+    background-color: #f2edfd;
+    margin-top: 10rem;
+    
+}
+.appsection2__container{
+    padding: 0 4rem;
+}
+.appsection2__top{
+    padding: 3rem 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+.appsection2__middle{
+    padding: 3rem 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+    flex-direction: row-reverse;
+}
+.appsection2__bottom{
+    padding: 3rem 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+.appsection2__top::after ,.appsection2__bottom::after ,.appsection2__middle::after{
+    background-image: url(./../../../Assets//images/DiscoverSkew.png);
+    width: 444px;
+    position: absolute;
+    top: 0;
+    height: 426px;
+    right: 18%;
+    opacity: .5;
+    content: "";
+    pointer-events: none;
+}
+.appsection2__middle::after{
+    background-image: url(./../../../Assets//images/DiscoverSkew.png);
+    width: 444px;
+    position: absolute;
+    top: 0;
+    height: 426px;
+    right: 18%;
+    opacity: .5;
+    content: "";
+    pointer-events: none;
+}
+
+.appsection2__top__right{
+    flex: 0.5;
+}
+.appsection2__top__right img{
+    width: 100%;
+}
+.appsection2__top__left{
+    flex: 0.45;
+}
+.appsection2__top__left__top{
+    display: flex;
+    align-items: center;
+}
+.appsection2__top__left__top__right img {
+    width: 78px;
+    height: 78px;
+    border: 1px solid #701FFF;
+    border-radius: 4px;
+    box-shadow: 0 5px 6px -2px rgb(0 0 0 / 8%);
+    object-fit: cover;
+    padding: 5px;
+}
+.appsection2__top__left__top__left{
+    margin-right: 20px;
+    font-size: 25px;
+    color: #252b33;
+}
+.appsection2__top__left__middle{
+    margin-top: 2rem;
+    font-weight: 200;
+    margin-bottom: 3rem;
+    text-align: justify;
+}
+.appsection2__top__left__bottom h2{
+    font-size: 22px;
+    color: #252b33;
+    margin-bottom: 1rem;
+}
+.appsection2__top__left__bottom__img{
+    margin-bottom: 4rem;
+}
+.appsection2__top__left__bottom__img img{
+    margin: 0 15px;
+}
+.appsection2__btn{
+    text-align: center;
+}
+@media screen and (max-width:850px){
+    .appsection2__top ,.appsection2__middle,.appsection2__bottom{
+        flex-direction: column;
+    }
+    .appsection2__top__right{
+        margin-bottom: 4rem;
+    }
+}
+@media screen and (max-width:550px){
+    .appsection2{
+        margin-top: 5rem;
+    }
+    .appsection2__top__left__middle{
+        margin-bottom: 1rem;
+    }
+    .appsection2__top__left__bottom__img{
+        margin-bottom: 2rem;
+    }
+    .appsection2__container{
+        padding: 0 2rem;
+    }
+    .appsection2__bottom{
+        margin-bottom: 3rem;
+    }
+    .appsection2__top::after, .appsection2__bottom::after, .appsection2__middle::after{
+        display: none;
+    }
+}

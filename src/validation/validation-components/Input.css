@@ -1,0 +1,18 @@
+.input-style{
+    display: flex;
+    flex-direction: column;
+}
+.input-style input{
+    padding:15px 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+.input-style input:focus{
+    box-shadow: 0px 0px 10px #00000040;
+    outline: none;
+}
+.input-style input::placeholder{
+    font-size: 16px;
+    font-family: IRANSass;
+    font-weight: 200;
+}

@@ -1,0 +1,42 @@
+.appsection4__top{
+    text-align: center;
+}
+.appsection4__top h5{
+    color: var(--main-color);
+    word-spacing: 3px;
+}
+.appsection4__top h2{
+    font-size: 35px;
+}
+.appsection4__bottom{
+    padding: 1rem 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.appsection4__bottom img{
+    width: 100%;
+}
+.appsection4__btn{
+    margin-top: 4rem;
+    text-align: center;
+}
+@media screen and (max-width:850px){
+    .appsection4__top h2{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:660px){
+    .appsection4__top{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .appsection4__top h2{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:550px){
+    .appsection4__top h2{
+        font-size: 20px;
+    }
+
+}

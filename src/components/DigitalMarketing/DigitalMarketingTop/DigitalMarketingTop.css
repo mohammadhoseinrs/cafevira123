@@ -1,0 +1,122 @@
+
+.dgtop{
+    background-color: var(--main-color);
+    height: 85vh;
+    z-index: 2;
+}
+.dgtop::after{
+    content: "";
+    width: 100%;
+    height: 150px;
+    display: block;
+    position: absolute;
+    left: 0;
+    background-image: url(https://openmoves.com/wp-content/themes/jupiter-child/images/wav-svg.svg);
+    bottom: 0;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: 102%;
+    background-position: bottom;
+    margin-bottom: -1px;
+}
+.dgtop__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 15rem;
+}
+.dgtop__container__right{
+    flex: 0.4;
+    color: white;
+}
+.dgtop__container__left{
+    flex: 0.4;
+}
+.dgtop__container__left video{
+    width: 100%;
+    border-radius: 100%;
+}
+.dgtop__container__right__title{
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 35px;
+}
+.dgtop__container__right__subtitle{
+    font-weight: 200;
+    margin: 1rem 0;
+}
+.dgtop__container__right__button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.dgtop__container__right__button__btn{
+    padding: 0.5rem 3rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;    
+    word-spacing: 5px;
+    cursor: pointer;
+}
+.dgtop__container__right__button__right{
+    background-color: orange;
+    color: white;
+}
+.dgtop__container__right__button__left{
+    transition: all 0.3s ease;
+}
+.dgtop__container__right__button__left:hover{
+    background-color: orange;
+    color: white;
+}
+@media screen and (max-width:1200px){
+    .dgtop__container{
+        padding: 5rem 2rem;
+    }
+}
+@media screen and (max-width:920px){
+    .dgtop__container{
+        padding: 2rem;
+        flex-direction: column-reverse;
+    }
+    .dgtop__container__left{
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+}
+@media screen and (max-width:600px){
+    .dgtop__container__right{
+        text-align: center;
+        margin-top: 3rem;
+
+    }
+    .dgtop__container__right__title{
+        font-size: 22px
+    }
+}
+@media screen and (max-width:420px){
+    .dgtop__container__right__button{
+        flex-direction: column;
+    }
+    .dgtop__container__right__button__left{
+        margin-top: 1rem;
+    }
+    .dgtop::after{
+        bottom: 5px;
+    }
+}  
+@media screen and (max-width:400px){
+    .dgtop::after{
+        display: none;
+    }
+    .dgtop__container{
+        padding-bottom: 0;
+    }
+    .dgtop{
+        height: 80vh;
+    }
+    .dgtop__container__left{
+        width: 70%;
+    }
+}

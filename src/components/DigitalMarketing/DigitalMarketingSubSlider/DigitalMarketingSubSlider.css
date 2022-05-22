@@ -1,0 +1,16 @@
+.dgt__sub{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.subslider__item img{
+    margin: 0 auto;
+}
+@media screen and (max-width:400px){
+    .dgt__sub{
+        margin-top: 0;
+    }
+    .subslider__item img{
+        width: 150px;
+    }
+}

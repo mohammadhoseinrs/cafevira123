@@ -1,0 +1,75 @@
+.Webtop__top{
+    text-align: center;
+    background-color: #F8F8F8;
+}
+.Webtop__top__title{
+    padding-top: 2rem;
+    background: -webkit-linear-gradient(313deg,#DD4747,#DD4747,var(--main-color),var(--main-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 35px;
+    font-family: 'Vazirmatn', sans-serif;
+}
+.Webtop__top__subtitle{
+    margin: 20px 0;
+}
+.Webtop__top__plus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+.Webtop__top__plus p{
+    margin: 0 10px;
+}
+.Webtop__top__btn{
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Webtop__top__btn__item__btn{
+    border: 2px solid var(--main-color);
+    background-color: transparent;
+    outline: none;
+    padding: 10px 35px;
+    font-size: 18px;
+    border-radius: 2px;
+    margin: 0 30px;
+    background: -webkit-linear-gradient(313deg,#DD4747,#DD4747,var(--main-color),var(--main-color));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 500;
+}
+.Webtop__top__btn__item p{
+    font-weight: 200;
+}
+.Webtop__bottom{
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+}
+.Webtop__bottom img{
+    width: 100%;
+}
+@media screen and (max-width:550px){
+    .Webtop__top__title{
+        font-size: 22px;
+        padding: 2rem 3rem;
+        padding-bottom: 0;
+    }
+    .Webtop__top__subtitle , .Webtop__top__plus{
+        font-size: 15px;
+    }
+    .Webtop__top__btn{
+        flex-direction: column;
+    }
+    .Webtop__top__btn__item{
+        margin-bottom: 25px;
+    }
+    .Webtop__bottom{
+        margin-top: 0;
+    }
+}
+

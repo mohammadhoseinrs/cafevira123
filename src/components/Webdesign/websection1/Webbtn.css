@@ -1,0 +1,40 @@
+.webbtn{
+    width: fit-content;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.webbtn__inner svg{
+    background-color: #fff;
+    border-radius: 100%;
+}
+.webbtn__inner{
+    display: flex;
+    align-items: center;
+}
+.webbtn__top{
+    font-weight: 200;
+    font-size: 12px;
+    
+}
+.webbtn__inner__text{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: 300;
+}
+@media screen and (max-width:550px){
+    .webbtn{
+        padding: 5px 10px;
+    }
+    .webbtn__top{
+        font-size: 10px;
+    }
+    .webbtn__inner__text{
+        font-size: 12px;
+    }
+    .webbtn__inner svg{
+        width: 10px;
+        height: 10px;
+    }
+}

@@ -1,0 +1,127 @@
+.appsection1__container{
+    width: 90%;
+    margin: 6rem auto;
+}
+.appsection1__top{
+    text-align: center;
+}
+.appsection1__top p{
+    color: var(--main-color);
+}
+.appsection1__top h2{
+    font-size: 40px;
+    font-family: 'Vazirmatn', sans-serif;
+}
+.appsection1__bottom{
+    padding: 1rem 3rem;
+    margin-top: 3rem;
+    position: relative;
+    height: 60vh;
+    background: linear-gradient( to bottom,#f2edfd 0,rgba(245,249,255,0.73) 27%,rgba(255,255,255,0) 100% );
+    border-radius: 4px;
+}
+.appsection1__bottom::before{
+    content: "";
+    background-image: url(./../../../Assets//images//applogo/WorkWithShape.svg);
+    background-repeat: no-repeat;
+    width: 66%;
+    height: 620px;
+    position: absolute;
+    background-size: contain;
+    right: 0;
+    top: 20px;
+    bottom: 0;
+    left: auto;
+    z-index: -1;
+}
+.appsection1__bottom__item{
+    margin-bottom: 2rem;
+}
+
+.appsection1__bottom__item__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    color: var(--main-color);
+}
+.appsection1__bottom__item__top2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+.appsection1__bottom__item__top__right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--main-color);
+    color: rgb(76, 75, 75) ;
+    padding: 0.4rem;
+    border-radius: 50%;
+}
+.appsection1__bottom__item__top__right svg{
+    color: var(--main-color);
+}
+
+.appsection1__bottom__item__top__right2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(172, 169, 169);
+    color: rgb(76, 75, 75) ;
+    padding: 0.4rem;
+    border-radius: 50%;
+}
+.appsection1__bottom__item__top__title{
+    font-size: 25px;
+    font-weight: 500;
+}
+.appsection1__bottom__item__bottom{
+    display: block;
+    transition: all 2s ease;
+}
+.appsection1__bottom__item__bottom2{
+    display: none;
+}
+.appsection1__bottom__item__bottom p{
+    font-weight: 200;
+    margin-top: 1rem;
+}
+
+.appsection1__bottom__item__top2:hover{
+    opacity: 0.5;
+}
+.appsection1__btn{
+    text-align: center;
+}
+@media screen and (max-width:850px){
+    .appsection1__btn{
+        margin-top: 5rem;
+    }
+    .appsection1__container{
+        margin: 4rem auto;
+    }
+    .appsection1__bottom{
+        margin-top: 1.5rem;
+    }
+    .appsection1__top h2{
+        font-size: 30px;
+    }
+    .appsection1__bottom::before{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px){
+    .appsection1__bottom__item__top__title{
+        font-size: 20px;
+    }
+    .appsection1__bottom__item__bottom p{
+        font-size: 15px;
+    }
+    .appsection1__btn{
+        margin-top: 4rem;
+    }
+    
+}

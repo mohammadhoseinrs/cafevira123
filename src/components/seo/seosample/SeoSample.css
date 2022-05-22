@@ -1,0 +1,70 @@
+.seosample{
+    width: 80%;
+    
+    margin: 0 auto;
+    
+}
+.seosample__top{
+    text-align: center;
+}
+.seosample__top__title{
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 30px;
+    color: var(--main-color);
+}
+.seosample__top__subtitle{
+    margin-top: 8px;
+    font-size: 18px;
+}
+.seosample__bottom{
+    margin-top: 5rem ;
+}
+.seosample__bottom__slider__item{
+    width: 300px;
+    margin: 0 2rem;
+}
+.seosample__bottom .slick-slider .slick-list .slick-track .slick-slide{
+    margin: 0 2rem;
+}
+.seosample__bottom .slick-slider{
+    height: 500px;
+    overflow: hidden;
+}
+.seosample__bottom__slider__item__top{
+    width: 100%;
+    border-bottom: 1px solid rgb(186, 185, 185);
+    
+}
+.seosample__bottom__slider__item__top img{
+    width: 80%;
+    margin: 0 auto;
+}
+.seosample__bottom__slider__item__bottom{
+    width: 80%;
+    margin:  0 auto;
+    text-align: right;
+}
+.seosample__bottom__slider__item__bottom__top{
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+}
+.seosample__bottom__slider__item__bottom__top__text{
+    background-color: var(--main-color);
+    padding: 0.3rem 0.7rem ;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #fff;
+    margin-left: 10px;
+}
+.seosample__bottom__slider__item__bottom__top__title{
+    font-size: 15px;
+}
+.seosample__bottom__slider__item__bottom__bottom{
+    font-weight: 200;
+    font-size: 15px;
+    text-align: justify;
+}

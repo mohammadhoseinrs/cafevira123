@@ -1,0 +1,113 @@
+.websection2{
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.websection2__left{
+    flex: 0.2;
+}
+.websection2__right__item{
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.3s ease;
+}
+.websection2__right{
+    flex: 0.15;
+    align-self: flex-start;
+    font-weight: 500;
+}
+.websection2__right__active{
+    color: var(--main-color);
+    font-size:20px;
+    transform: scale(1.1);
+}
+.websection2__left__active{
+    background-color: var(--main-color);
+    color: #fff;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 30px;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+.websection2__middle{
+    flex: 0.65;
+    margin-right: -0.5rem;
+}
+.websection2__middle__inner{
+    width: 90%;
+}
+.websection2__middle__inner2{
+    display: none;
+}
+
+.websection2__left__active2{
+    -webkit-text-stroke: 1px var(--main-color);
+    color: transparent;
+    font-size: 30px;
+    font-family: 'Vazirmatn', sans-serif;
+}
+.websection2__left__item{
+    cursor: pointer;
+}
+.websection2__middle__inner__bottom{
+    color: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.websection2__middle__inner__bottom__right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.websection2__middle__inner__bottom__right p{
+    margin-left: 10px;
+    font-weight: 300;
+}
+.websection2__right__item:hover{
+    color: var(--main-color);
+}
+.websection2__footer img {
+    width: 100%;
+}
+@media screen and (max-width:940px){
+    .websection2__left{
+        display: none;
+    }
+    .websection2__middle__inner{
+        width: 100%;
+    }
+    .websection2__middle{
+        flex: 0.75;
+    }
+    .websection2__right{
+        flex: 0.2;
+    }
+}
+@media screen and (max-width:550px){
+    .websection2{
+        flex-direction: column;
+    }
+    .websection2__right{
+        margin-bottom: 1rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width:470px){
+    .websection2__right__item{
+        font-size: 10px;
+    }
+    .websection2__right__active{
+        transform: scale(1);
+    }
+    .websection2{
+        width: 80%;
+    }
+}

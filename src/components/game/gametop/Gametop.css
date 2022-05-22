@@ -1,0 +1,125 @@
+.gametop__container{
+    background-image: url(./../../../Assets//images/figure1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 3rem;
+}
+.gametop{
+    width: 90%;
+    margin: 0 auto;
+}
+.gametop__title{
+    position: relative;
+    padding-right: 68px;
+    margin-bottom: 24px;
+    line-height: 1.4;
+    font-size: 20px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+.gametop__title::before{
+    content: "";
+    top: 45px;
+    position: absolute;
+    width: 52px;
+    right: 0;
+    background: var(--main-color);
+    height: 2px;
+}
+.gametop__subtitle{
+    width: 70%;
+    font-family: 'Vazirmatn', sans-serif;
+    font-size: 35px;
+}
+.gametop__subtitle2{
+    width: 70%;
+    margin-top: 2rem;
+    font-weight: 200;
+    text-align: justify;
+}
+.gametop__content__item{
+    margin: 20px 0 0;
+    padding: 30px 25px;
+    border-radius: 10px;
+    box-shadow: 0 7px 25px 0 rgba(0,0,0,.1);
+    background-color: #fff;
+    position: relative;
+    width: 30%;
+    transition: all 0.4s ease;
+}
+.gametop__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.gametop__content__item h5{
+    font-size: 20px;
+    color: var(--main-color);
+}
+.gametop__content__item::before{
+    content: '';
+    width: 10px;
+    height: 25px;
+    top: 35px;
+    right: 0px;
+    position: absolute;
+    background-color: var(--main-color);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 5px;
+}
+.gametop__content__item p{
+    font-weight: 200;
+    font-size: 14px;
+    margin-top: 1rem;
+    text-align: justify;
+}
+.gametop__btn{
+    margin: 3rem 1rem;
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 1rem 5rem;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    overflow: hidden;
+    font-weight: 300 !important;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.gametop__content__item:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.gametop__btn:hover{
+    opacity: 0.9;
+    transform: translateY(-10px);
+}
+@media screen and (max-width:900px){
+    .gametop__content{
+        flex-direction: column;
+    }
+    .gametop__content__item{
+        width: 100%;
+    }
+    .gametop__subtitle2 , .gametop__subtitle{
+        text-align: center;
+        width: 100%;
+        font-size: 25px;
+    }
+    .gametop__subtitle2 {
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .gametop__btn__container{
+        text-align: center;
+    }
+}
+@media screen and (max-width:550px){
+    .gametop__subtitle{
+        font-size: 20px;
+    }
+}
+

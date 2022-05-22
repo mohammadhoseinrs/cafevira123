@@ -1,0 +1,17 @@
+.websection3__left{
+    flex: 0.3;
+}
+.websection3__left img{
+    width: 100%;
+}
+.websection3__middle__inner{
+    display: block;
+}
+.websection3__middle__inner2{
+    display: none;
+}
+@media screen and (max-width:550px){
+    .websection3__middle__inner__bottom{
+        margin: 3rem 0;
+    }
+}
